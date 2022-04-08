@@ -18,7 +18,6 @@ import {Brand} from '../branding/'
                       <IconButton>
                           <IoMailUnread size="1.5rem" color="red"/>
                       </IconButton>
-
                       <IconButton>
                           <IoNotificationsOutline size="1.5rem" color="grey"/>
                       </IconButton>
