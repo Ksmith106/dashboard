@@ -4,7 +4,7 @@ import {Label, Input} from 'ui/forms'
 import {TextArea}from 'ui/forms/textarea'
 import {ProductImageDropBox} from '../ProductImageDropBox';
 import {SubmitButton} from 'ui/buttons';
-function ProductDataEntryForm ({children, handleProductName, handleProductPrice,setProductImage ,...props}) {
+function ProductDataEntryForm ({children, handleProductName, handleProductPrice,setProductImage, handleProductDescription, handleSubmit ,...props}) {
     return(
         <ProductDataEntryFormStyles {...props} onSubmit={handleSubmit}>
             <productImage>
