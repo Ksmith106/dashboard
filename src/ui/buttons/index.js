@@ -20,14 +20,14 @@ const IconButton = styled(button)`
      
 `
 
-const Button = styled(button)`
+const SubmitButton = styled(button)`
     background-color: ${props => props.bgcolor || '#2563eb'};
     color: ${props => props.color || '#f8fafc'}; 
     font-weight: ${props => props.fw || '700'}; 
     font-size: ${props => props.fs || '14px'};
 `
 
-export {button, Button, IconButton}
+export {button, IconButton, SubmitButton}
 
 
  
