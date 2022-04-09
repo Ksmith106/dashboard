@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const button = styled.button`
+const Button = styled.button`
  
 background-color: ${props => props.bc || "transparent"}; ;
 border: ${props => props.border || 'none'};;
@@ -14,21 +14,17 @@ width: ${props => props.width || "100%"};
 
 `;
 
-const IconButton = styled(button)`
+const IconButton = styled(Button)`
      box-shadow:none;
      padding:0;
      
 `
 
-const SubmitButton = styled(button)`
+const SubmitButton = styled(Button)`
     background-color: ${props => props.bgcolor || '#2563eb'};
     color: ${props => props.color || '#f8fafc'}; 
     font-weight: ${props => props.fw || '700'}; 
     font-size: ${props => props.fs || '14px'};
 `
 
-export {button, IconButton, SubmitButton}
-
-
- 
- 
+export {Button, IconButton, SubmitButton}
