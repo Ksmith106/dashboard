@@ -25,7 +25,7 @@ function ProductDataEntryForm ({children, handleProductName, handleProductPrice,
                 <TextArea rows={6}/>
             </ProductDescription>
             <div>
-                <submitButton width="100%" padding="1rem 1rem" margin="1rem 1rem 1rem 1rem" type="submit">Add Coffee Selection</submitButton>
+                <SubmitButton width="100%" padding="1rem 1rem" margin="1rem 1rem 1rem 1rem" type="submit">Add Coffee Selection</SubmitButton>
             </div>
         </ProductDataEntryFormStyles>
     )
